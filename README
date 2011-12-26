@@ -1,0 +1,17 @@
+	This is a modified ECDSA library for Google Go language.
+It is based on original code created by The Go Authors, modified to handle Koblitz curves (such as secp256k1 that is commonly used by Bitcoin applications).
+
+For more information on Koblitz curves, check out this link:
+http://www.secg.org/collateral/sec2_final.pdf
+
+For more information on Bitcoins, check out this link:
+http://bitcoin.org/
+
+	Code status:
+-The code is a beta version, it should work correctly, but it has not yet been thoroughly tested.
+
+	TODO:
+-Add more test cases
+-Verify library's proper functionality on sample curves
+-Test library in an actual application
+-Verify copyright notices and other comments in the code
